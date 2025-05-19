@@ -16,7 +16,6 @@ The simplest graphic interface for download content from the steam workshop netw
   # API  ABCVG Network By Vova1234.
   
 ### Download
-
-[Download torrent](https://github.com/Alexandr1235/WorkshopDownloader/blob/master/WorkshopDownloader.torrent)
+[Download torrent](https://github.com/Alexandr1235/WorkshopDownloader/blob/main/WorkshopDownloader.torrent?raw=true)
 
 [Releases](https://github.com/Alexandr1235/WorkshopDownloader/releases)
