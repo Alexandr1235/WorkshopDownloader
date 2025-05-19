@@ -194,7 +194,7 @@ MyGui.Show()
 return
 }
 ;FileAppend (A_Tab A_NowUTC html), A_ScriptDir "\StreamRequest.log"
-MsgBox "Title: " title[1] "`nFilesize: " round( filesize[1]  / 1024 / 1024 , 2 ) " mb" file_url[1] 
+MsgBox "Title: " title[1] "`nFilesize: " round( filesize[1]  / 1024 / 1024 , 2 ) " mb"
 Run file_url[1]
 MyGui.Show()
 Return
