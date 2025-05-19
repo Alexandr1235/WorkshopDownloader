@@ -72,7 +72,7 @@ html := oApi.ResponseText
 {
 RegExMatch(html, "s)<title>(.*?)</title>",  &title)
 RegExMatch(html, "s)<consumer_app_id>(.*?)</consumer_app_id>",  &consumer)
-RegExMatch(html, "s)<description>(.*?)</description>", &description)
+;RegExMatch(html, "s)<description>(.*?)</description>", &description)
 ;RegExMatch(html, "s)<preview_url>(.*?)</preview_url>",  &preview)
 } else {
 MsgBox("Status " oApi.status,, 16)
@@ -93,7 +93,7 @@ return
 
 ;MsgBox(html , 16) 
 
-MsgBox "Title: " title[1] "`nDescription: " description[1] "`nFilesize: " round( filesize[1]  / 1024 / 1024 , 2 ) " mb" 
+MsgBox "Title: " title[1] "`nFilesize: " round( filesize[1]  / 1024 / 1024 , 2 ) " mb" 
 runwait "steamcmd.exe +login anonymous +workshop_download_item " consumer[1] " " oUrl " +exit"
 MyGui.Show()
 Return
