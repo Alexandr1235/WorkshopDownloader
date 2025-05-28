@@ -3,7 +3,7 @@ Steam Workshop DownloaderThe simplest graphic interface for download content fro
 
 ## Why
 
-![WorkshopDownloader](https://github.com/Alexandr1235/WorkshopDownloader/raw/main/LOG.JPG)
+![WorkshopDownloader](https://raw.githubusercontent.com/Alexandr1235/WorkshopDownloader/main/LOG.JPG)
   
 The simplest graphic interface for download content from the steam workshop network
   
